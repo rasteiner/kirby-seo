@@ -1,0 +1,87 @@
+# Heading Structure
+heading-structure: Struttura dell'intestazione
+incorrect-heading-order: La struttura del tuo titolo ha un ordine errato ed è invalida.
+missing-h1-tag: La struttura del tuo titolo non contiene un H1 ed è invalida.
+multiple-h1-tags: La struttura del tuo titolo contiene più di un H1 ed è invalida.
+
+# SEO Preview
+seo-preview: Anteprima
+seo-preview-for: Mostra
+open-debugger: Apri Debugger
+open-search-console: Apri Console di Ricerca
+
+# Robots
+indicator-index: Indicizzazione consentita
+indicator-any: Indicizzazione parzialmente vietata
+indicator-noindex: Indicizzazione vietata
+robots: Direttive dei Robot
+robots-index: Indicizzazione
+robots-index-help: Se i motori di ricerca possono indicizzare questa pagina.
+robots-follow: Segui i link
+robots-follow-help: Se i motori di ricerca possono seguire i link su questa pagina.
+robots-archive: Archivio
+robots-archive-help: Se i motori di ricerca possono archiviare questa pagina.
+robots-imageindex: Indicizzazione delle immagini
+robots-imageindex-help: Se i motori di ricerca possono indicizzare le immagini su questa pagina.
+robots-snippet: Frammenti
+robots-snippet-help: Se i motori di ricerca possono mostrare frammenti di testo di questa pagina.
+
+# Blueprint - Site/Common
+metadata-site: Metadati & SEO
+global-meta-headline: Impostazioni SEO globali
+global-meta-headline-help: |
+  Queste impostazioni vengono utilizzate per tutte le pagine che non hanno i propri metadati.
+  Puoi sovrascriverli per ogni pagina.
+meta-title-template: Template del titolo
+meta-title-template-help: |
+  Un modello da utilizzare per tutti i titoli delle pagine.
+  "\{\{ title }}" verrà sostituito con il titolo della pagina.
+meta-description: Descrizione della pagina
+meta-description-help: Lunghezza consigliata massima di 150 caratteri. Utilizzato se non è specificata alcuna descrizione della pagina.
+
+global-og-headline: Impostazioni Globali Open Graph
+global-og-headline-help: Imposta come appare il tuo sito web quando viene condiviso su social network come Facebook o Twitter.
+og-title-template: Template del titolo Open Graph
+og-description: Descrizione Open Graph
+og-site-name: Nome del sito Open Graph
+og-image: Immagine Open Graph
+og-image-help: Dimensione consigliata di 1200x630 pixel.
+og-image-empty: Nessuna immagine Open Graph selezionata
+twitter-card-type: Tipo di Card Twitter
+twitter-card-type-help: Il tipo di Card Twitter determina come appare il tuo sito web quando viene condiviso su Twitter. [Leggi di più](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards).
+
+social-media-accounts: Account dei social media
+social-media-accounts-help: URL o @handle dei tuoi account sui social media. Utilizzato per inserire link ai tuoi account nei metadati.
+
+# Blueprint - Page
+meta-headline: Impostazioni SEO
+og-headline: Impostazioni Open Graph
+title-overwrite: Titolo (sovrascrivi)
+summary: Sommario con immagine quadrata
+summary_large_image: Sommario con immagine grande
+default-select: 'Predefinito:'
+twitter-author: 'Autore @username su Twitter'
+inherit-settings: Eredita impostazioni
+inherit-settings-help: |
+  Seleziona quali impostazioni dovrebbero essere ereditate dalle sottopagine.
+  Questo può essere utile, ad esempio, se tutti i post di un blog dovrebbero avere il proprio modello di titolo, che differisce dal predefinito della pagina. Tutte le impostazioni possono comunque essere sovrascritte nella pagina principale.
+use-title-template: Usare il template del titolo?
+use-title-template-no: 'No - solo titolo'
+use-title-template-yes: 'Sì - con template'
+use-title-template-help: Specifica se deve essere utilizzato il modello del titolo. Non verrà ereditato.
+
+# Labels
+google: Google
+facebook: Facebook
+slack: Slack
+
+# Sitemap
+sitemap: Mappa del sito
+sitemap-index: Indice della mappa del sito
+sitemap-description: Questa è la mappa del tuo sito web che informa i motori di ricerca sulle pagine del tuo sito web che possono essere indicizzate.
+sitemap-by: da
+sitemap-changefreq: Cambia frequenza
+sitemap-last-updated: Ultimo aggiornamento
+sitemap-priority: Priorità
+sitemap-url: URL
+sitemap-no-entries: Nessuna voce
